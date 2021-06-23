@@ -35,6 +35,7 @@ button.on("click", function() {
     // Remove any data
     tbody.html("");
 
+
     // Select the input element and get the raw html node
     var inputElement = d3.select(".form-control");
     // Get the value property of the input element
